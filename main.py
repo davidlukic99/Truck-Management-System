@@ -4,7 +4,7 @@ import time
 
 
 # create a connection
-conn = pg2.connect(database='TMS', user='postgres', password='ivana2011')
+conn = pg2.connect(database='TMS', user='postgres', password='*********')
 
 # establish connection and start cursor
 cur = conn.cursor()
